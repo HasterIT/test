@@ -1,0 +1,345 @@
+body{
+    background-color: #e2e2e2;
+}
+#khung{
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0px;
+}
+.logo{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    background-color:white;
+    height: 120px;
+}
+.logo img{
+    margin: 10px 10px 10px 20px;
+    width: 100px;
+    float: left;
+    
+}
+.btn1 button{
+    margin: 10px;
+    border: none;
+    font-size: 20px;
+    width: 110px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #7447c1;
+}
+.btn2 button{
+    margin: 10px;
+    border: none;
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #0674ec;
+}
+.btn1 button:hover{
+    background-color:#7447c1ac ;
+}
+.btn2 button:hover{
+    background-color:#0675ecb0 ;
+}
+.btnall{
+
+    display: flex;
+}
+.btnall a{
+    text-decoration: none;
+    color: white;
+}
+.ten{
+    font-size: 30px;
+}
+.ten2{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.anh{
+    width: 700px;
+}
+.tenall{
+    margin: 20px 0px 0px 10px;
+
+}
+
+nav{
+    height: 50px;
+    background-color: #186bcc;
+    display: flex;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    position: relative;
+    padding: 0px 30px;
+    list-style: none;
+}
+.menu li:hover>ul.sub-menu{
+    display: block;
+}
+.menu li:hover{
+    background-color: white;
+}
+.menu li:hover a{
+    color:#186bcc;
+}
+.menu ul.sub-menu{
+    box-shadow: 2px 2px 10px 0px #333;
+    left: 0px;
+    margin: 0;
+    background-color: rgb(255, 254, 254);
+    position: absolute;
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+    display: none;
+}
+.menu ul.sub-menu li a{
+    font-size: 20   px;
+    padding: 8px 0px;
+    color: black;
+
+}
+.menu li a{
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+input[name="search"]{   
+    height: 30px;   
+    width: 300px;
+    border-radius: 5px;
+}
+.search{
+    margin-left: auto;
+    margin-right: 10px;
+}
+.search button{
+    background-color:#01050f;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 100px;
+    line-height: 30px;
+}
+.search button a{
+    color: white;
+    text-decoration: none;
+}
+.search button:hover{
+    background-color: #01050f9e;
+}
+header img{
+    width: 100%;
+    height: 300px;
+}
+.main{
+    display: flex;
+}
+article{
+    width: 70%;
+}
+.goiy{
+    margin-top: 20px ;
+    font-size: 17px;
+}
+input[name="khungnho"]{
+    padding: 0px 10px;
+    margin: 5px 10px;
+    width: 95%;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+textarea[name="khungto"]{
+    padding: 10px 10px;
+    margin: 5px 10px;
+    min-height: 114px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+.card{
+    background: white;
+    margin: 10px 10px 10px 0px;
+
+}
+.ten1{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #186bcc;
+    font-size: 20px;
+}
+.noidung{
+    margin: 10px;
+}
+.btn{
+    margin: 25px 30px;
+    text-align: right;
+}
+.btn input[name="submit"]{
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background: #b52e2a;
+    color: white;
+}
+.btn input[name="submit"]:hover{
+    cursor: pointer;
+    background-color: #C9302C;
+}
+
+aside{
+    width: 30%;
+}
+.aside{
+    background: white;
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 10px;
+}
+.hoidap{
+    margin: 7px;
+    border-bottom: 1px solid #eee;
+    justify-content: space-between;
+    display: flex;
+}
+.hoidap:last-child{
+    border: none;
+}
+.hoidap ul{
+    margin-right: 10px;
+    display: block;
+    display: flex;
+}
+.hoidap ul li{
+    background: #EBEDF1;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    list-style: none;
+}
+.hoidap ul .li-view{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #01050f;
+    width: 75px;
+}
+.hoidap ul .li-rep{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #01050f;
+    width: 60px;
+}
+.hoidap ul li p{
+    margin: 8px 10px;
+}
+.conten{
+    margin: 30px;
+}
+.tieude a{
+    color: #01050f;
+    text-decoration: none;
+    font-size: 25px;
+}
+.tieude a:hover{
+    color: #0674ec;
+}
+.time{
+    color:#929292 ;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.creatnew{
+    margin: 10px 0px 10px 0px;
+    height: 70px;
+    border: 1px solid #0674EC;
+    background: #0674EC;
+    border-radius: 5px;
+    text-align: center;
+}
+.creatnew a{
+    display: block;
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.creatnew:hover{
+    background: #0454aa;
+}
+.timkiem{
+    background: white;
+    margin: 0px 0px 10px 0px;
+    padding-bottom: 10px;
+}
+.timkiem p{
+    margin: 0px;
+    padding: 30px;
+    font-size: 30px;
+    border-bottom: 1px solid #eee;
+}
+.nut{
+    position: relative;
+    margin: 0;
+    padding: 20px 30px 20px 20px;
+}
+.menu ul.sub-menu li{
+    border-bottom: 1px solid #bebdbd90;
+}
+.menu ul.sub-menu li:hover{
+    background:rgb(181, 180, 180);
+}
+.nut button{
+    position: absolute;
+    right:2px;
+    top: 21px;
+    background:#0674EC;
+    text-align: center;
+    width: 47px;
+    height: 47px;
+    line-height: 45px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    margin-right: 10px;
+}
+.timkiem input{
+    border: 1px solid #eee;
+    padding-left: 20px;
+    margin-right: 10px;
+    border-radius:25px;
+    height: 45px;
+    width: 98%;
+}
+aside .noidung1{
+    padding-left: 10px;
+}
+.cardaside{
+    margin: 10px;
+    overflow: auto;
+}
+.noidung1 a{
+    text-decoration: none;
+}
+.noidung1 a:hover{
+    color: red;
+}
+.footer{
+    color: white;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    font-size: 20px;
+    background: #186bcc;
+    width: 100%;
+    height: 100px;
+}
